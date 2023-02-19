@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +14,19 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #06283D;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .title {
-    color: #dff6ff;
+    color: white;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
 }
 
 .main-container {
@@ -33,6 +40,7 @@ body {
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
+    box-shadow: 0px 15px 15px -10px black;
 }
 
 .search-box {
